@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pallavi Desai</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a class="nav-name" href="#hero">Pallavi Desai</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#research">Research</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#leadership">Leadership</a></li>
+        <li><a href="#honors">Honors</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#footer">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero" class="hero">
+    <div class="hero-inner">
+      <div class="hero-photo">
+        <img src="assets/headshot.jpg" alt="Pallavi Desai">
+      </div>
+      <div class="hero-content">
+        <h1>Pallavi Desai</h1>
+        <p class="tagline">MS CS at UT Austin &middot; ML Researcher &middot; Founder &middot; Patent Holder</p>
+        <p class="bio">I build intelligent systems at the intersection of machine learning, language, and real-world impact. From patented hardware for marching bands to NLP research at scale, I bring rigor and creativity to hard problems.</p>
+        <div class="hero-links">
+          <a href="mailto:pallavi.desai@utexas.edu" class="hero-link">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            Email
+          </a>
+          <a href="https://www.linkedin.com/in/pallavi-desai25/" class="hero-link" target="_blank" rel="noopener">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            LinkedIn
+          </a>
+          <a href="https://github.com/pallavidesai-ut" class="hero-link" target="_blank" rel="noopener">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+            GitHub
+          </a>
+          <a href="assets/cv.pdf" class="hero-link cv-button" download>
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            Download CV
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESEARCH & PATENTS -->
+  <section id="research" class="section fade-in">
+    <div class="section-inner">
+      <h2 class="section-title">Research &amp; Patents</h2>
+
+      <div class="featured-cards">
+        <div class="featured-card">
+          <div class="card-accent"></div>
+          <div class="card-body">
+            <span class="card-label">U.S. Patent #10,885,891 &middot; Jan 2020&ndash;Present</span>
+            <h3>System, Method and Apparatus for Directing a Presentation of a Musical Score via Artificial Intelligence</h3>
+            <p>A thin, lightweight electronic display for sheet music using Real-Time Kinematic tracking and AI-based telemetric assessment to provide marching bands with individualized, real-time feedback for music and marching performance.</p>
+            <p class="card-meta">AIMarchAssist</p>
+          </div>
+        </div>
+        <div class="featured-card">
+          <div class="card-accent"></div>
+          <div class="card-body">
+            <span class="card-label">U.S. Patent #11,289,058 &middot; Continuation &middot; Mar 2022</span>
+            <h3>System, Method and Apparatus for Directing a Presentation of a Musical Score Using Artificial Intelligence</h3>
+            <p>Continuation patent extending the original AIMarchAssist invention — an AI-driven system providing real-time, individualized feedback for marching band music and movement performance.</p>
+            <p class="card-meta">AIMarchAssist</p>
+          </div>
+        </div>
+        <div class="featured-card">
+          <div class="card-accent"></div>
+          <div class="card-body">
+            <span class="card-label">Publication &middot; Aug&ndash;Dec 2025</span>
+            <h3>Towards Interpretable Models of Rumor Spread in LLM-Driven Agent Societies</h3>
+            <p>Examining how rumors spread and what network features accelerate or hinder them using graph theory and LLM-agent simulations. Collaboration with Rahul Nandakumar, PhD (McCombs School of Business). Submission to journal expected summer 2026.</p>
+          </div>
+        </div>
+      </div>
+
+      <h3 class="subsection-title">Research Roles</h3>
+      <div class="research-roles">
+        <div class="research-role">
+          <div class="role-header">
+            <span class="role-title">Graduate Research Assistant</span>
+            <span class="role-date">Jan 2026&ndash;Present</span>
+          </div>
+          <span class="role-org">DynamiCog Lab &middot; UT Austin</span>
+          <p>Analyzing secure messages between patients and healthcare providers to improve patient-centered outcomes using LLMs for Named Entity Recognition on synthetic datasets. Collaboration with UCSF and Kaiser Permanente.</p>
+        </div>
+        <div class="research-role">
+          <div class="role-header">
+            <span class="role-title">Fung Fellow</span>
+            <span class="role-date">Aug&ndash;Dec 2024</span>
+          </div>
+          <span class="role-org">Fung Institute for Engineering Leadership &middot; UC Berkeley</span>
+          <p>Partnered with Reclaim Our Power to develop an interactive GIS-based virtual resource addressing high utility costs and environmental dangers by PG&amp;E. Built dynamic visualizations using ArcGIS software.</p>
+        </div>
+        <div class="research-role">
+          <div class="role-header">
+            <span class="role-title">Research Assistant</span>
+            <span class="role-date">Sep&ndash;Dec 2022</span>
+          </div>
+          <span class="role-org">Trademark Rebranding Project &middot; UC Berkeley</span>
+          <p>Synthesized 12-column data on why public companies choose to rebrand from 3,000 articles over 20 years. Conducted NLP analysis on 150+ articles to determine rebranding motives.</p>
+        </div>
+        <div class="research-role">
+          <div class="role-header">
+            <span class="role-title">Research Assistant</span>
+            <span class="role-date">Jan&ndash;May 2022</span>
+          </div>
+          <span class="role-org">Micro Lab &middot; Haas Business School, UC Berkeley</span>
+          <p>Examined online vs. in-person interaction, nonverbal detection of racial bias, and the tendency to delay gratification. Coded nonverbal behaviors for Dr. Dana Carney; conducted preliminary literature reviews on power and stress.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section fade-in">
+    <div class="section-inner">
+      <h2 class="section-title">Experience</h2>
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div class="timeline-header-main">
+                <img src="assets/logos/amex.svg" alt="American Express" class="company-logo">
+                <div>
+                  <h3 class="job-title">Machine Learning Engineer Intern</h3>
+                  <span class="job-org">American Express</span>
+                </div>
+              </div>
+              <span class="job-date">Jun&ndash;Aug 2024</span>
+            </div>
+            <ul>
+              <li>Conditioned 1.5 years of Slack messages for an intent classification model on Google Cloud Platform. Trained a Multinomial Naive Bayes model and fine-tuned hyperparameters to improve accuracy from <strong>22% to 61%</strong>.</li>
+              <li>Built training dataset of 120 keyword-intent pairs from scratch; verified results using K-Fold Cross Validation.</li>
+              <li>Presented findings to SVP-level audience; later presented a poster at the 2024 SEED Scholars Research Symposium.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div>
+                <h3 class="job-title">Founder &amp; CEO</h3>
+                <span class="job-org">AIMarchAssist</span>
+              </div>
+              <span class="job-date">Aug 2023&ndash;Present</span>
+            </div>
+            <ul>
+              <li>Led team of 2 to develop patented marching band technology. Selected as 1 of 22 out of 150 for Berkeley's Student Entrepreneurship Program.</li>
+              <li>Calculated TAM and SAM; conducted 50+ customer interviews by cold-emailing student groups and band directors.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div class="timeline-header-main">
+                <img src="assets/logos/amex.svg" alt="American Express" class="company-logo">
+                <div>
+                  <h3 class="job-title">Data Scientist Intern</h3>
+                  <span class="job-org">American Express</span>
+                </div>
+              </div>
+              <span class="job-date">Jun&ndash;Aug 2023</span>
+            </div>
+            <ul>
+              <li>Synthesized 4 years of user feedback from an internal Slack channel to consolidate pain points for the Cornerstone Interactive Analytics platform.</li>
+              <li>Designed a lexicon-based sentiment analysis algorithm using NLTK's Vader — Bag of Words model across <strong>20,000 lines</strong> of feedback, surfacing accurate sentiment scores and word frequencies for 14 Product Managers.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div class="timeline-header-main">
+                <img src="assets/logos/youcom.png" alt="You.com" class="company-logo">
+                <div>
+                  <h3 class="job-title">Product Management Intern</h3>
+                  <span class="job-org">You.com</span>
+                </div>
+              </div>
+              <span class="job-date">Jun&ndash;Aug 2022</span>
+            </div>
+            <ul>
+              <li>Managed and modernized the Social Search feature of a privacy-based LLM aggregator. Made 15–20 feature enhancements based on 50+ user interviews.</li>
+              <li>Increased Social Search traffic by <strong>159% in 2 months</strong>. Presented to C-suite and implemented executive feedback directly.</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education" class="section fade-in">
+    <div class="section-inner">
+      <h2 class="section-title">Education</h2>
+      <div class="edu-grid">
+
+        <div class="edu-card">
+          <div class="edu-header">
+            <div class="edu-header-main">
+              <img src="assets/logos/utaustin_seal.png" alt="UT Austin" class="company-logo">
+              <h3>University of Texas at Austin</h3>
+            </div>
+            <span class="edu-date">2025&ndash;Present</span>
+          </div>
+          <p class="edu-degree">M.S. in Computer Science</p>
+          <p class="edu-detail">College of Natural Sciences &middot; Thesis Advisor: Dr. Risto Miikkulainen</p>
+          <p class="edu-label">Coursework</p>
+          <p class="edu-courses">Generative Models &middot; Databases and LLMs &middot; Machine Learning on Real World Networks &middot; Grounded NLP &middot; Distributed Computing</p>
+        </div>
+
+        <div class="edu-card">
+          <div class="edu-header">
+            <div class="edu-header-main">
+              <img src="assets/logos/ucberkeley.svg" alt="UC Berkeley" class="company-logo">
+              <h3>University of California, Berkeley</h3>
+            </div>
+            <span class="edu-date">Class of 2025</span>
+          </div>
+          <p class="edu-degree">B.A. in Data Science</p>
+          <p class="edu-detail">College of Computing, Data Science, and Society &middot; SEED Scholars Honors Program &middot; Minor in Science, Technology, &amp; Society &middot; Certificate in Entrepreneurship and Technology (Sutardja Center)</p>
+          <p class="edu-label">Coursework</p>
+          <p class="edu-courses">Data Engineering &middot; Inferencing, Modeling &amp; Decision Making &middot; Probability for DS &middot; Data Structures &amp; Algorithms</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- LEADERSHIP -->
+  <section id="leadership" class="section fade-in">
+    <div class="section-inner">
+      <h2 class="section-title">Leadership</h2>
+      <div class="leadership-grid">
+
+        <div class="leadership-card">
+          <div class="leadership-header">
+            <h3>Incoming Co-President</h3>
+            <span class="leadership-date">Aug 2025&ndash;Present</span>
+          </div>
+          <span class="leadership-org">UT Graduate Representative Association of CS (GRACS)</span>
+          <p>Elected Co-President for Fall 2026. Previously First Year Liaison Officer. Created UTCoffeeChat, a mentorship platform for MS/PhD students. Conducted climate survey presented to Dr. Peter Stone.</p>
+        </div>
+
+        <div class="leadership-card">
+          <div class="leadership-header">
+            <h3>Operations Manager &amp; Teaching Assistant</h3>
+            <span class="leadership-date">Aug 2024&ndash;May 2025</span>
+          </div>
+          <span class="leadership-org">Sutardja Center for Entrepreneurship and Technology &middot; UC Berkeley</span>
+          <p>Coordinated workshops for SCET Innovators in Residence as Peer Startup Coach. Taught 13 students at the Startup Ideation &amp; Ecosystems Workshop; designed curriculum from scratch. Workshops consistently ranked most enjoyed activity.</p>
+        </div>
+
+        <div class="leadership-card">
+          <div class="leadership-header">
+            <h3>Senior Mentor</h3>
+            <span class="leadership-date">Aug 2022&ndash;May 2025</span>
+          </div>
+          <span class="leadership-org">Berkeley Mentorship Cohort</span>
+          <p>Mentored 2 freshmen per year for 3 years with individualized support on academics, research, and internships. Held weekly one-on-ones; received the Community Award (1 of 95 mentors) in 2023.</p>
+        </div>
+
+        <div class="leadership-card">
+          <div class="leadership-header">
+            <h3>Senior Member</h3>
+            <span class="leadership-date">Aug 2023&ndash;May 2025</span>
+          </div>
+          <span class="leadership-org">CDSS Undergraduate Student Advisory Board &middot; UC Berkeley</span>
+          <p>Appointed to the new College of CDSS's advisory board. Planned orientation activities and pitched a college-wide mentorship program for incoming students.</p>
+        </div>
+
+        <div class="leadership-card">
+          <div class="leadership-header">
+            <h3>Competitive Member</h3>
+            <span class="leadership-date">Aug 2022&ndash;Jul 2025</span>
+          </div>
+          <span class="leadership-org">Cal Equestrian Team</span>
+          <p>Mentored new riders; placed 3rd out of 11 at UC Santa Cruz IHSA competition (Nov 2024). Cal Equestrian received Reserve Champion at Fall 2022 and 2024 competitions. Completed a month-long training program in Córdoba, Argentina (Jul 2025), placing 3rd out of 15.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- HONORS & AWARDS -->
+  <section id="honors" class="section fade-in">
+    <div class="section-inner">
+      <h2 class="section-title">Honors &amp; Awards</h2>
+      <div class="honors-list">
+
+        <div class="honor-item">
+          <div class="honor-header">
+            <h3>SEED Scholar</h3>
+            <span class="honor-date">Jul 2021&ndash;May 2025</span>
+          </div>
+          <span class="honor-org">STEM Excellence Through Equity and Diversity Honors Program &middot; UC Berkeley</span>
+          <p>Engaged in a 6-week Summer Rising program covering Data Science, Algebra, Psychology, and Biology. Fostered collaboration with 25 scholars on DE&amp;I in STEM.</p>
+        </div>
+
+        <div class="honor-item">
+          <div class="honor-header">
+            <h3>Most Promising Innovation Award</h3>
+            <span class="honor-date">May 2024</span>
+          </div>
+          <span class="honor-org">Designing Startups to Transform Society Pitch Competition &middot; UC Berkeley</span>
+          <p>Collaborated with a team of 5 to conceptualize a personal data tracking app, validated through 30+ customer interviews. Received the Most Promising Innovation Award out of 13 teams.</p>
+        </div>
+
+        <div class="honor-item">
+          <div class="honor-header">
+            <h3>Community Award</h3>
+            <span class="honor-date">Apr 2023</span>
+          </div>
+          <span class="honor-org">Berkeley Mentorship Cohort</span>
+          <p>Awarded to 1 out of 95 mentors for an extraordinary demonstration of equity and inclusion values. Presented by Dean Tsu-Jae King Liu. Nominated by a mentee.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS & INTERESTS -->
+  <section id="skills" class="section fade-in">
+    <div class="section-inner">
+      <h2 class="section-title">Skills &amp; Interests</h2>
+
+      <div class="skills-block">
+        <h3 class="skills-label">Technical</h3>
+        <div class="pills pills-accent">
+          <span class="pill">Python</span>
+          <span class="pill">SQL</span>
+          <span class="pill">Java</span>
+          <span class="pill">MongoDB</span>
+          <span class="pill">Git</span>
+          <span class="pill">NumPy</span>
+          <span class="pill">SciPy</span>
+          <span class="pill">Matplotlib</span>
+          <span class="pill">Scikit-Learn</span>
+          <span class="pill">NLTK</span>
+          <span class="pill">SpaCy</span>
+        </div>
+      </div>
+
+      <div class="skills-block">
+        <h3 class="skills-label">Languages</h3>
+        <div class="pills pills-sand">
+          <span class="pill">Nepali</span>
+          <span class="pill">Spanish</span>
+          <span class="pill">Hindi</span>
+          <span class="pill">Gujarati</span>
+        </div>
+      </div>
+
+      <div class="skills-block">
+        <h3 class="skills-label">Interests</h3>
+        <p class="interests-text">Flute &middot; Reading &middot; Aviation &middot; Photography &middot; Live Music &middot; Cooking &middot; Traveling</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="footer">
+    <div class="footer-inner">
+      <div class="footer-links">
+        <a href="mailto:pallavi.desai@utexas.edu">pallavi.desai@utexas.edu</a>
+        <a href="https://www.linkedin.com/in/pallavi-desai25/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://github.com/pallavidesai-ut" target="_blank" rel="noopener">GitHub</a>
+      </div>
+      <p class="footer-copy">&copy; 2026 Pallavi Desai</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
